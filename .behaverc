@@ -1,0 +1,6 @@
+[behave]
+color=yes
+show_skipped=no
+show_source=no
+show_timings=yes
+summary=no
