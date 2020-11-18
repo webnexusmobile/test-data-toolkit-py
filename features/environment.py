@@ -1,5 +1,6 @@
 import os
 
+
 def before_all(context):
     # Get and set some environment variables
     if 'base_url' in context.config.userdata:
