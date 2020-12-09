@@ -24,7 +24,6 @@ Feature: Demo some common test data creation scenarios
     Given I send a simple GET request
     Then I can pass the response to another request
 
-  @focus
   Scenario Outline: I can send multiple modified payloads in one scenario
     Given I use "demo.json" as payload
     And I replace version with "<version>"
