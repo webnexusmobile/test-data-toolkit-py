@@ -2,16 +2,16 @@
 
 ## Installation
 ```shell
-pip install -r requirements.txt
+pipenv install
 ```
 
 ## Excecution
 ```
-behave -D base_url="http://httpbin.org" -D username="user@example.com" -D password="secret"
+pipenv run behave -D base_url="http://httpbin.org" -D username="user@example.com" -D password="secret"
 ```
 or
 ```
-BASE_URL="http://httpbin.org" behave
+BASE_URL="http://httpbin.org" pipenv runn behave
 ```
 
 ## Excecute only scenarios with @focus tag

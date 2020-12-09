@@ -6,7 +6,7 @@ Feature: Demo some common test data creation scenarios
   @focus
   Scenario: I can send a simple GET request
     Given I send a simple GET request
-    Then the response code is "201"
+    Then the response code is "200"
 
   Scenario: I can send a simple POST request
     Given I send a simple POST request

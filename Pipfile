@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+behave = "==1.2.6"
+requests = "==2.24.0"
+Flask = "==1.1.2"
+Flask-Executor = "==0.9.4"
+Flask-Shell2HTTP = "==1.5.2"
+PyHamcrest = "==2.0.2"
+pylint = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"

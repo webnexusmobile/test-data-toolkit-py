@@ -15,5 +15,7 @@
     "other": true
   },
   "cucumberautocomplete.gherkinDefinitionPart": "(Given|When|Then)\\(",
-  "cucumberautocomplete.stepRegExSymbol": "'"
+  "cucumberautocomplete.stepRegExSymbol": "'",
+  "python.linting.pylintEnabled": true,
+  "python.linting.enabled": true
 }
