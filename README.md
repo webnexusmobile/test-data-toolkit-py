@@ -39,8 +39,10 @@ docker run -it test-data-toolkit:latest -D base_url="http://httpbin.org" --tags=
 docker run -v ${pwd}/features:/home/worker/features -it -e BASE_URL=http://httpbin.org test-data-toolkit:latest
 ```
 
-## Start server
+## Start server to enable remote execution via API call
+```shell
 flask run -p 4000
+```
 
 ## Execute via API
 ```
